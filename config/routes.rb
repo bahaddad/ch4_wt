@@ -1,4 +1,4 @@
 Myrottenpotato::Application.routes.draw do
-  resorces :movies
+  resources :movies
   root :to => redirect('/movies')
 end
